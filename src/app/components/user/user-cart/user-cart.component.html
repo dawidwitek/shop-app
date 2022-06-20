@@ -1,0 +1,27 @@
+<section class="cart">
+  <div class="cart__main">
+    <h2 class="cart__header">Twój koszyk</h2>
+    <div class="cart__products">
+      <div *ngIf="(cartProductCount$ | async) == 0" class="cart__empty">
+        <p>
+          Jeśli dodasz coś do swojego koszyka, pojawi się to tutaj. Chcesz teraz
+          zacząć?
+        </p>
+        <button class="cart__empty-button" routerLink="/">Zaczynamy</button>
+      </div>
+
+      <div *ngIf="cartProducts$ | async as cartProducts" class="cart__items">
+        <app-user-cart-item
+          *ngFor="let cartProduct of cartProducts"
+          [cartProduct]="cartProduct"
+          (deleteItemEvent)="deleteProduct($event)"
+          (updateItemEvent)="updateProductCount($event)"
+        ></app-user-cart-item>
+      </div>
+    </div>
+  </div>
+
+  <aside class="cart__summary">
+    <app-user-cart-summary></app-user-cart-summary>
+  </aside>
+</section>

@@ -1,0 +1,29 @@
+.cart {
+  height: 100%;
+}
+
+.cart__image {
+  height: 25px;
+}
+
+.cart__link {
+  position: relative;
+}
+
+.cart__link-counter {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 20px;
+}
+
+.cart__link-counter-number {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 4px;
+  font-size: 13px;
+  color: black;
+}

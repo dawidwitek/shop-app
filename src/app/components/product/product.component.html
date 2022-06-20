@@ -1,0 +1,16 @@
+<div class="product">
+  <a
+    class="product__image-link"
+    [routerLink]="['single-product-details', product.id]"
+  >
+    <img src="{{ product.images[0] }}" class="product__image"
+  /></a>
+  <div class="product__details">
+    <a
+      class="product__details-link"
+      [routerLink]="['single-product-details', product.id]"
+      ><h2 class="product__title">{{ product.title | uppercase }}</h2></a
+    >
+    <p class="product__price">{{ product.price }}</p>
+  </div>
+</div>

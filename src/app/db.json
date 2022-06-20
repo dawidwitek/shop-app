@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Forum Low Shoes",
+      "description": "Chcesz zobaczyć, na co Cię stać? Załóż buty adidas Forum i przekonaj się! Inspirowane koszykówką buty, które od 1984 roku są symbolem autoekspresji, są stworzone do przekraczania granic i dostrzegania tego, co możesz osiągnąć dzięki ciężkiej pracy. Podkreślają również fakt, że bez innych nie dotarlibyśmy tak daleko — za sprawą klasycznych barw drużyny i akcentu w postaci stylizowanej opaski na głowę. Cholewka z białej skóry i akcenty kolorystyczne oddają hołd tradycji modelu Forum przy każdym kroku.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/ca6eb69651d94083889cacb60018d8bb_9366/forum-low-shoes.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2b31c1803ab54803bebdacb6001ed64c_9366/Forum_Low_Shoes_Bialy_FY7757_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ceec94ff45ea4cb9a1c6acb6001bf4ad_9366/Forum_Low_Shoes_Bialy_FY7757_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab5e228c8b4749288d3eacb6001dec33_9366/Forum_Low_Shoes_Bialy_FY7757_04_standard.jpg"
+      ],
+      "price": 449.99,
+      "sizes": [
+        { "size": "34", "available": true },
+        { "size": "35", "available": true },
+        { "size": "36", "available": true },
+        { "size": "37", "available": false },
+        { "size": "38", "available": false },
+        { "size": "39", "available": true },
+        { "size": "40", "available": true },
+        { "size": "41", "available": true },
+        { "size": "42", "available": false },
+        { "size": "43", "available": false },
+        { "size": "44", "available": true },
+        { "size": "45", "available": true },
+        { "size": "46", "available": true }
+      ],
+      "specification": [
+        "Model sznurowany",
+        "Cholewka ze skóry syntetycznej",
+        "Podeszwa środkowa Cloudfoam",
+        "Gumowa podeszwa zewnętrzna"
+      ]
+    },
+
+    {
+      "id": "2",
+      "title": "Pureboost 22 Shoes",
+      "description": "Nie potrzebujesz zbyt wiele, aby biegać. Przekąska, playlista i buty do biegania adidas pozwolą Ci pokonać kolejne kilometry. Amortyzowane i sprężyste buty Pureboost to wyjątkowo wygodny model treningowy do krótkich, codziennych treningów biegowych. adidas BOOST zapewnia niewiarygodny zwrot energii na każdym kroku, a gumowa podeszwa zewnętrzna Stretchweb wygina się pod stopą, dodając energii Twoim krokom.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/edae486dd0df416e8a06ae2b00599e69_9366/pureboost-22-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/edae486dd0df416e8a06ae2b00599e69_9366/pureboost-22-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/edae486dd0df416e8a06ae2b00599e69_9366/pureboost-22-shoes.jpg"
+      ],
+      "price": 549.99
+    },
+
+    {
+      "id": "3",
+      "title": "Adizero Adios Pro 2.0 Shoes",
+      "description": "Niezależnie od tego, czy biegniesz 10 km, czy piszesz historię, jak zwycięzcy Boston Marathon® 2022, Peres Jepchirchir i Evans Chebet, buty adizero Adios Pro 2.0 pomogą Ci uwolnić swój potencjał w dniu wyścigu. To buty, które pomogą Ci osiągnąć nową życiówkę, zostały wyposażone w zwiększające sztywność ENERGY RODS i dwie warstwy pianki LIGHTSTRIKE PRO, która zapewnia zwrot energii. Ultralekka cholewka zaprojektowana w oparciu o informacje uzyskane od osób biegających została wykonana częściowo z poliestru pochodzącego z recyklingu i pomaga w osiąganiu większych szybkości, a jednocześnie zapewnia właściwą giętkość, przewiewność oraz wsparcie.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/f37aa4344e52461fb2b8ad660079c456_9366/adizero-adios-pro-2.0-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/f37aa4344e52461fb2b8ad660079c456_9366/adizero-adios-pro-2.0-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/f37aa4344e52461fb2b8ad660079c456_9366/adizero-adios-pro-2.0-shoes.jpg"
+      ],
+      "price": 899.99
+    },
+
+    {
+      "id": "4",
+      "title": "Ultraboost 22 Shoes",
+      "description": "Buty biegowe Ultraboost zapewniają wygodę i sprężystość. Mają podeszwę środkową BOOST, która zapewnia niekończącą się energię, system Linear Energy Push oraz podeszwę zewnętrzną z gumy Continental™. Cholewka tych butów została wykonana z wysokiej jakości przędzy pochodzącej z recyklingu, która zawiera co najmniej 50% Parley Ocean Plastic — tworzywa wyprodukowanego z przetworzonych plastikowych odpadów zebranych na odległych wyspach, plażach i w nadmorskich miejscowościach w celu zapobiegania zanieczyszczeniu oceanów.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/e69d0e0c30054c0ebda2ae04012660a8_9366/ultraboost-22-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/e69d0e0c30054c0ebda2ae04012660a8_9366/ultraboost-22-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/e69d0e0c30054c0ebda2ae04012660a8_9366/ultraboost-22-shoes.jpg"
+      ],
+      "price": 799.99,
+      "specification": [
+        "Model sznurowany",
+        "Cholewka ze skóry syntetycznej",
+        "Podeszwa środkowa Cloudfoam",
+        "Gumowa podeszwa zewnętrzna"
+      ]
+    },
+
+    {
+      "id": "5",
+      "title": "Run 60s 2.0 Shoes",
+      "description": "Buty w biegowym stylu zainspirowane tradycją adidas. Łącząc to, co najlepsze z klasycznych modeli z bieżni z prostymi liniami nowoczesnego stylu miejskiego, ten model prezentuje ponadczasowy design, który sprawdzi się na co dzień. Podeszwa środkowa Cloudfoam zapewnia wyjątkową miękkość na każdym kroku.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/dcb290b686f34d1b8c84ad1801692158_9366/run-60s-2.0-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/dcb290b686f34d1b8c84ad1801692158_9366/run-60s-2.0-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/dcb290b686f34d1b8c84ad1801692158_9366/run-60s-2.0-shoes.jpg"
+      ],
+      "price": 269.79
+    },
+
+    {
+      "id": "6",
+      "title": "NMD_R1 Shoes",
+      "description": "Wyróżnij się w miejskiej dżungli. Buty NMD_R1 inspirowane popularnym modelem biegowym z lat 80. z archiwów adidas zapewniają dopasowanie niczym w skarpetce za sprawą elastycznej, wspierającej cholewki o plecionym designie. Zwracająca energię amortyzacja Boost gwarantuje komfort przez cały dzień, a wyróżniające się wstawki po bokach podeszwy środkowej stanowią rozpoznawalny znak kultowego stylu NMD. A jeśli to nie wystarczy, by zwrócić na nie uwagę, szykowne kolory z pewnością przyjdą z pomocą.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/a87c16a30e564404a261acb800d37210_9366/nmd_r1-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/a87c16a30e564404a261acb800d37210_9366/nmd_r1-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/a87c16a30e564404a261acb800d37210_9366/nmd_r1-shoes.jpg"
+      ],
+      "price": 649.49
+    },
+
+    {
+      "id": "7",
+      "title": "Ozelia Boba Fett Shoes",
+      "description": "Statek Boby Fetta mógł być niewykrywalny, lecz prawdziwi fani sagi Star Wars™ natychmiast Cię zauważą w tych butach. Masywne buty, inspirowane sławnym pojazdem Boby Fetta z sagi „Gwiezdne Wojny”, przyciągną niejedno spojrzenie. Sneakery stworzone we współpracy z Disneyem i Lucasfilm pozwolą Ci wyróżnić się na ulicy. Te wyjątkowe buty są dostępne tylko w sklepie internetowym adidas. Nie znajdziesz ich nigdzie indziej w całej Galaktyce.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab0024b5e950408fb074adc60105bac2_9366/ozelia-boba-fett-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab0024b5e950408fb074adc60105bac2_9366/ozelia-boba-fett-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab0024b5e950408fb074adc60105bac2_9366/ozelia-boba-fett-shoes.jpg"
+      ],
+      "price": 449.99
+    },
+
+    {
+      "id": "8",
+      "title": "Tyshawn Low Shoes",
+      "description": "Charakterystyczna sylwetka butów Tyshawna Jonesa w odsłonie przed kostkę. Model Tyshawn Low zachowuje kultowe linie i wzbogaca je o cholewkę ze skóry premium i zamszowe detale oraz niski profil. Wzmocnienie w palcach Adituff, formowana wkładka Adiprene i wyściółka z pianki zapamiętującej kształt na inspirowanej tenisem podeszwie zapewniają komfort i kontrolę nad deską. Model wykonany częściowo z materiałów pochodzących z recyklingu odzyskanych w trakcie procesu produkcyjnego, np. ścinków materiałów i odpadów z gospodarstw domowych, w celu uniknięcia znacznie większego wpływu na środowisko naturalne, jaki wywiera produkcja surowców.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/06087875b6fa46f58404ada800460abe_9366/tyshawn-low-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/06087875b6fa46f58404ada800460abe_9366/tyshawn-low-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/06087875b6fa46f58404ada800460abe_9366/tyshawn-low-shoes.jpg"
+      ],
+      "price": 399.99
+    },
+
+    {
+      "id": "9",
+      "title": "NMD_R1 Shoes",
+      "description": "Buty adidas NMD istnieją dopiero od 2015 roku, ale już zdążyły stać się współczesną ikoną. Ten model wywodzi się z archiwalnych modeli biegowych, ale jest wzbogacony o nowoczesne technologie. Zawsze chodziło o innowacje. Ta wersja nie jest inna. Widzisz ten śmiały, wypukły wzór, który owija się wokół stopy? To najnowsza odsłona nieustraszonego stylu NMD. Załóż je i ciesz się pełnym energii biegiem w przyszłość — lub przez cały dzień. Cholewka tych butów została wykonana z wysokiej jakości przędzy pochodzącej z recyklingu, która zawiera co najmniej 50% Parley Ocean Plastic — tworzywa wyprodukowanego z przetworzonych plastikowych odpadów zebranych na odległych wyspach, plażach i w nadmorskich miejscowościach w celu zapobiegania zanieczyszczeniu oceanów. Pozostałe 50% to poliester pochodzący z recyklingu.",
+      "images": [
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/5efa6da24f5a42d3a6b1ae1600f539cc_9366/nmd_r1-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/5efa6da24f5a42d3a6b1ae1600f539cc_9366/nmd_r1-shoes.jpg",
+        "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/5efa6da24f5a42d3a6b1ae1600f539cc_9366/nmd_r1-shoes.jpg"
+      ],
+      "price": 799.49
+    }
+  ],
+
+  "users": [
+    {
+      "username": "Sunriseq",
+      "password": "dawidek91"
+    },
+    {
+      "username": "Tero",
+      "password": "tero"
+    },
+    {
+      "username": "a",
+      "password": "a"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+.product-details-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-details__images {
+  width: 77%;
+}
+
+.product-details__image {
+  width: 680px;
+  margin: 5px;
+}
+
+.product-details__data {
+  width: 23%;
+  position: fixed;
+  right: 10px;
+  padding: 20px;
+}
+
+.product-details__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-details__description-title {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.product-details__description-text {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.product-details__price {
+  font-size: 18px;
+}
+
+.product-details__list {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.product-details__list-item {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.product-details__shoes-size {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details__button {
+  cursor: pointer;
+  background: white;
+  border: 1px solid rgb(177, 177, 177);
+  padding: 10px 20px;
+  margin-top: -1px;
+  margin-left: -1px;
+  transition: 0.5s;
+}
+
+.product-details__button:hover {
+  background: black;
+  color: white;
+}
+
+.product-details__button--notAvailable {
+  color: rgb(177, 177, 177);
+  text-decoration: line-through;
+}
+
+.product-details__button--notAvailable:hover {
+  background: white;
+  color: black;
+}
+
+.product-details__line {
+  margin: 20px 0;
+  width: 100%;
+  height: 1px;
+  color: rgb(177, 177, 177);
+  background: rgb(177, 177, 177);
+  border-width: 0;
+}
+
+.product__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-details__button-buy {
+  width: 100%;
+  padding: 20px;
+  background: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.product-details__button-buy:hover {
+  color: darken(white, 40);
+}

@@ -1,0 +1,23 @@
+<div class="summary">
+  <div *ngIf="productsPrice$ | async as productsPrice" class="summary__details">
+    <h2 class="summary__header">Podsumowanie zamówienia</h2>
+    <p class="summary__total summary__text">
+      Produkt
+      <span class="summary__total-price"
+        >{{ productsPrice$ | async | number: "1.2-2" }} zł</span
+      >
+    </p>
+
+    <p class="summary__shipment summary__text">
+      Dostawa
+      <span class="summary__shipment-cost">
+        {{ productsPrice > 400 ? "Darmowa" : (shipmentPrice$ | async) }}</span
+      >
+    </p>
+
+    <p class="summary__shipment-total summary__text">
+      Razem
+      <span class="summary__shipment-cost-total"></span>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+<div *ngIf="productDetails" class="product-details-container">
+  <div class="product-details__images">
+    <img
+      class="product-details__image"
+      *ngFor="let image of productDetails.images; let i = index"
+      src="{{ image }}"
+      alt=""
+    />
+  </div>
+
+  <div class="product-details__data">
+    <h2 class="product-details__title">{{ productDetails.title }}</h2>
+    <p class="product-details__price">
+      {{ productDetails.price | currency: "PLN " }}
+    </p>
+    <h3 class="product-details__description-title">Dlaczego warto kupić?</h3>
+    <p class="product-details__description-text">
+      {{ productDetails.description }}
+    </p>
+
+    <h3 class="product-details__description-title">Zalety produktu</h3>
+    <ul class="product-details__list">
+      <li
+        *ngFor="let spec of productDetails.specification"
+        class="product-details__list-item"
+      >
+        {{ spec }}
+      </li>
+    </ul>
+
+    <h3 class="product-details__shoes-size">Rozmiary</h3>
+
+    <button
+      class="product-details__button"
+      *ngFor="let shoesSize of productDetails.sizes; let i = index"
+      [value]="shoesSize.size"
+      [ngClass]="{
+        'product-details__button--notAvailable':
+          !productDetails.sizes[i].available
+      }"
+    >
+      <span> {{ shoesSize.size }}</span>
+    </button>
+
+    <button (click)="onAdd()" class="product-details__button-buy">
+      Dodaj do koszyka
+    </button>
+  </div>
+</div>
