@@ -4,29 +4,26 @@ import {
   CanActivate,
   Router,
   RouterStateSnapshot,
-  UrlTree,
 } from '@angular/router';
-import { catchError, map, Observable, of, tap } from 'rxjs';
-import { __values } from 'tslib';
+import { Observable, tap } from 'rxjs';
 import { AuthService } from '../services/auth.service';
 
 @Injectable({
   providedIn: 'root',
 })
-export class GuestGuard implements CanActivate {
+export class AuthGuard implements CanActivate {
   observ!: boolean;
   constructor(private service: AuthService, private router: Router) {}
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
-  ): boolean | Observable<boolean> {
-    return this.service.isAuthenticated().pipe(
+  ): Observable<boolean> | boolean {
+    return this.service.isAuthenticated.pipe(
       tap((el) => {
-        if (el) {
-          this.router.navigate(['/dashboard']);
+        if (!el) {
+          this.router.navigate(['/']);
         }
-      }),
-      map((el) => !el)
+      })
     );
   }
 }

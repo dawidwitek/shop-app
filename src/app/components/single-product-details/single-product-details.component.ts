@@ -1,11 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Store } from '@ngrx/store';
-import { Observable, Subscription } from 'rxjs';
-import { Product } from 'src/app/Product';
+import { Subscription } from 'rxjs';
+import { Product } from 'src/app/core/models/Product';
+import { ProductService } from 'src/app/core/services/product.service';
 
-import { ProductService } from 'src/app/services/product.service';
-import { AppState } from 'src/app/Cart';
 import { addToCart } from 'src/app/store/actions/cart.actions';
 
 @Component({

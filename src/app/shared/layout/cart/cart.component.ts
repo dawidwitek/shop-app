@@ -1,7 +1,6 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { AppState } from 'src/app/Cart';
 import { cartState } from 'src/app/store/reducers/cart.reducer';
 import { getCartCount } from 'src/app/store/selectors/cart.selector';
 

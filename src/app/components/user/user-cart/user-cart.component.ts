@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { Product } from 'src/app/Product';
+import { Product } from 'src/app/core/models/Product';
 import {
   deleteProduct,
   updateProduct,

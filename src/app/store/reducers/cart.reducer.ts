@@ -1,6 +1,6 @@
 import { state } from '@angular/animations';
 import { createReducer, on } from '@ngrx/store';
-import { Product } from 'src/app/Product';
+import { Product } from 'src/app/core/models/Product';
 import {
   addToCart,
   deleteProduct,

@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { Product } from 'src/app/Product';
+import { Product } from 'src/app/core/models/Product';
 
 export const addToCart = createAction(
   '[Cart Page] Add product to cart',

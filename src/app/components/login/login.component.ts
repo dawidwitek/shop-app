@@ -1,8 +1,8 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Subscription } from 'rxjs';
-import { AuthService } from 'src/app/services/auth.service';
-import { User } from 'src/app/User';
+import { AuthService } from 'src/app/core/services/auth.service';
+import { User } from 'src/app/core/models/User';
 
 @Component({
   selector: 'app-login',

@@ -1,10 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
-import { Product, ProductDto } from '../Product';
-import { AppState } from '../Cart';
-import { Action, Store } from '@ngrx/store';
-import { cartState } from '../store/reducers/cart.reducer';
+import { Product, ProductDto } from 'src/app/core/models/Product';
+import { Store } from '@ngrx/store';
+import { cartState } from 'src/app/store/reducers/cart.reducer';
 
 @Injectable({
   providedIn: 'root',
