@@ -1,15 +1,15 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Subscription } from 'rxjs';
-import { AuthService } from 'src/app/core/services/auth.service';
 import { User } from 'src/app/core/models/User';
+import { AuthService } from 'src/app/core/services/auth.service';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss'],
+  selector: 'app-user-login',
+  templateUrl: './user-login.component.html',
+  styleUrls: ['./user-login.component.scss'],
 })
-export class LoginComponent implements OnInit, OnDestroy {
+export class UserLoginComponent implements OnInit, OnDestroy {
   loginForm!: FormGroup;
   userData: User[] = [];
   getUsers$!: Subscription;

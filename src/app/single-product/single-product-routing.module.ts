@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GuestGuard } from '../core/guards/guest.guard';
-import { ProductsComponent } from './views/products/products.component';
+import { SingleProductDetailsComponent } from './views/single-product-details/single-product-details.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: ProductsComponent,
+    path: 'single-product-details/:id',
+    component: SingleProductDetailsComponent,
     canActivate: [GuestGuard],
   },
 ];
@@ -15,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class ProductsRoutingModule {}
+export class SingleProductRoutingModule {}

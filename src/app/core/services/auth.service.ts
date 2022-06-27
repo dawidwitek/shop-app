@@ -24,7 +24,7 @@ export class AuthService {
         el.password === userData.password
       ) {
         this.isAuthenticatedSubject.next(true);
-        this.router.navigate(['dashboard']);
+        this.router.navigate(['user-dashboard']);
       } else {
         this.isAuthenticatedSubject.next(false);
         this.router.navigate(['/login']);

@@ -2,7 +2,6 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Product } from 'src/app/core/models/Product';
 import { cartState } from 'src/app/store/reducers/cart.reducer';
-import { getCartProducts } from 'src/app/store/selectors/cart.selector';
 
 @Component({
   selector: 'app-user-cart-item',

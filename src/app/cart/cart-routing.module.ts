@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GuestGuard } from '../core/guards/guest.guard';
-import { ProductsComponent } from './views/products/products.component';
+import { UserCartComponent } from './views/user-cart/user-cart.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: ProductsComponent,
+    path: 'cart',
+    component: UserCartComponent,
     canActivate: [GuestGuard],
   },
 ];
@@ -15,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class ProductsRoutingModule {}
+export class CartRoutingModule {}
